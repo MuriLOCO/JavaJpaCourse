@@ -1,0 +1,22 @@
+11:49:02,275 DEBUG SQL:109 - insert into Person (number, street, name) values (?, ?, ?)
+11:49:02,302 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [3700]
+11:49:02,302 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [Rue St-Patrick]
+11:49:02,303 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jose Mendes]
+14:25:56,208 DEBUG SQL:109 - insert into Person (number, street, name) values (?, ?, ?)
+14:25:56,289 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [3700]
+14:25:56,290 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [Rue St-Patrick]
+14:25:56,290 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jose Mendes]
+14:25:56,528 DEBUG SQL:109 - select person0_.id as id1_0_0_, person0_.number as number2_0_0_, person0_.street as street3_0_0_, person0_.name as name4_0_0_ from Person person0_ where person0_.id=?
+14:25:56,531 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+14:28:13,733 DEBUG SQL:109 - insert into Person (number, street, name) values (?, ?, ?)
+14:28:13,751 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [3700]
+14:28:13,752 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [Rue St-Patrick]
+14:28:13,753 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jose Mendes]
+14:28:13,784 DEBUG SQL:109 - select person0_.id as id1_0_0_, person0_.number as number2_0_0_, person0_.street as street3_0_0_, person0_.name as name4_0_0_ from Person person0_ where person0_.id=?
+14:28:13,786 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+14:28:33,860 DEBUG SQL:109 - insert into Person (number, street, name) values (?, ?, ?)
+14:28:33,879 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [3700]
+14:28:33,880 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [Rue St-Patrick]
+14:28:33,880 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jose Mendes]
+14:28:33,938 DEBUG SQL:109 - select person0_.id as id1_0_0_, person0_.number as number2_0_0_, person0_.street as street3_0_0_, person0_.name as name4_0_0_ from Person person0_ where person0_.id=?
+14:28:33,939 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]

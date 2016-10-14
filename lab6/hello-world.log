@@ -1,0 +1,135 @@
+15:20:23,926 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (studentName) 
+    values
+        (?)
+15:20:23,958 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Jose Mendes]
+15:22:00,394 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (studentName) 
+    values
+        (?)
+15:22:00,425 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Jose Mendes]
+15:31:06,115 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (studentName) 
+    values
+        (?)
+15:31:06,144 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Jose Mendes]
+15:31:07,131 DEBUG SQL:109 - 
+    update
+        Guide 
+    set
+        student_id=? 
+    where
+        id=?
+15:31:07,134 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+15:33:36,625 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (guideName, guideNumber, numberOfPages) 
+    values
+        (?, ?, ?)
+15:33:36,641 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Guide 1]
+15:33:36,641 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [646HGDG]
+15:33:36,646 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [55]
+15:33:36,684 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (guideName, guideNumber, numberOfPages) 
+    values
+        (?, ?, ?)
+15:33:36,685 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Guide 2]
+15:33:36,687 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [455445]
+15:33:36,687 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [43]
+15:33:36,696 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (guideName, guideNumber, numberOfPages) 
+    values
+        (?, ?, ?)
+15:33:36,696 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Guide 3]
+15:33:36,697 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [LASKS892378]
+15:33:36,697 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [13]
+15:33:36,717 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (guideName, guideNumber, numberOfPages) 
+    values
+        (?, ?, ?)
+15:33:36,718 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Guide 4]
+15:33:36,719 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [FJJH]
+15:33:36,719 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [55]
+15:33:36,725 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (guideName, guideNumber, numberOfPages) 
+    values
+        (?, ?, ?)
+15:33:36,726 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Guide51]
+15:33:36,727 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [646HGDG2222]
+15:33:36,727 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [10]
+15:33:36,748 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (studentName) 
+    values
+        (?)
+15:33:36,749 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Jose Mendes]
+15:33:36,768 DEBUG SQL:109 - 
+    update
+        Guide 
+    set
+        student_id=? 
+    where
+        id=?
+15:33:36,769 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+15:33:36,770 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+15:33:36,814 DEBUG SQL:109 - 
+    update
+        Guide 
+    set
+        student_id=? 
+    where
+        id=?
+15:33:36,817 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+15:33:36,818 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [2]
+15:33:36,822 DEBUG SQL:109 - 
+    update
+        Guide 
+    set
+        student_id=? 
+    where
+        id=?
+15:33:36,823 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+15:33:36,823 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [3]
+15:33:36,826 DEBUG SQL:109 - 
+    update
+        Guide 
+    set
+        student_id=? 
+    where
+        id=?
+15:33:36,826 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+15:33:36,827 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [4]
+15:33:36,829 DEBUG SQL:109 - 
+    update
+        Guide 
+    set
+        student_id=? 
+    where
+        id=?
+15:33:36,829 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+15:33:36,829 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [5]
